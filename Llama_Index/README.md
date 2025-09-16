@@ -24,7 +24,7 @@ The knowledge graph serves as the backbone for retrieval-augmented generation (R
 
 ## Contents
 - `kg_llama_index.ipynb`: Notebook for building a knowledge graph and RAG pipeline with LlamaIndex.
-- `ollama_mistral_comparison.ipynb`: Notebook comparing Ollama and Mistral models for RAG tasks.
+- `pdf2md_ollama_mistral_comparison.ipynb`: Notebook for converting PDF pages to markdown using both Ollama and Mistral LLMs, and comparing their outputs for document extraction quality.
 - `md/`: Contains markdown files generated or used by the notebooks.
 - `pdf/`: Contains PDF files used as data sources.
 
@@ -37,9 +37,8 @@ The knowledge graph serves as the backbone for retrieval-augmented generation (R
 
 ## Usage
 1. Place your PDF files in the `pdf/` folder.
-2. Use the workflow to convert PDFs to images, then to markdown, and finally ingest into LlamaIndex.
+2. Use `pdf2md_ollama_mistral_comparison.ipynb` to convert PDFs to markdown with both Ollama and Mistral, and compare the extraction quality.
 3. Open and run `kg_llama_index.ipynb` to build the index and run RAG queries.
-4. Use `ollama_mistral_comparison.ipynb` to compare model outputs.
 
 ---
 This folder is a template for experimenting with document extraction, knowledge graph construction, and RAG pipelines using LlamaIndex and multiple LLM backends.
